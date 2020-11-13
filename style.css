@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+img{
+    width: 45%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 2s;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+img:hover{
+    filter: grayscale(0%);
+}
